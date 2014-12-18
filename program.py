@@ -3,10 +3,10 @@ import os
 def somefunc(yay):
     return yay + " another part"
 
-somefunc("this and")
+print(somefunc("this and"))
 def sayhi(num):
     result = ""
-    for (i in range(num)):
-        result += "["+i+"] Hello world!\r\n"
+    for i in range(num):
+        result += "["+str(i)+"] Hello world!\r\n"
     return result
-sayhi(3)
+print(sayhi(3))
